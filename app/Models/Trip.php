@@ -9,7 +9,7 @@ class Trip extends Model
 {
     use HasFactory;
 
-    private $fillable = ['country', 'starts_at', 'ends_at'];
+    protected $fillable = ['country', 'starts_at', 'ends_at'];
 
     public function files() 
     {
